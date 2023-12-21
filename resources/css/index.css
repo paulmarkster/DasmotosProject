@@ -3,7 +3,7 @@
 }
 
 h1#title {
-    font-size: 6em;
+    font-size: 72px;
     font-weight: bold;
     color: khaki;
     background-image: url("../images/pattern.jpeg");
@@ -12,16 +12,23 @@ h1#title {
     margin-block-end: 20px;
 }
 
+@media (max-width: 1200px) { h1#title {font-size: 60px;} }
+@media (max-width: 800px) { h1#title {font-size: 48px;} }
+
 h2.subtitle {
-   font-size: 32px;
+   font-size: 36px;
    font-weight: bold;
    color: white;
 }
 
+h3 { font-size: 24px;}
+
+img {
+    margin-bottom: 20px;
+}
+
 .column1of2 {
     float: left;
-    width: 250px;
-    margin-bottom: 30px;
 }
 
 .column2of2 {
@@ -45,7 +52,6 @@ h2.subtitle {
 
 #frames {
     background-color: lightcoral;
-
 }
 
 #paint {
