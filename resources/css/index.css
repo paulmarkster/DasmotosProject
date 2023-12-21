@@ -1,8 +1,6 @@
-* {
-    font-family: Helvetica;
-}
+* { font-family: Helvetica; }
 
-h1#title {
+#title {
     font-size: 72px;
     font-weight: bold;
     color: khaki;
@@ -12,48 +10,43 @@ h1#title {
     margin-block-end: 20px;
 }
 
-@media (max-width: 1200px) { h1#title {font-size: 60px;} }
-@media (max-width: 800px) { h1#title {font-size: 48px;} }
+@media (max-width: 1200px) { #title {font-size: 60px;} }
+@media (max-width: 800px) { #title {font-size: 48px;} }
 
-h2.subtitle {
+.subtitle {
    font-size: 36px;
    font-weight: bold;
    color: white;
 }
 
-h3 { font-size: 24px;}
-
-img {
-    margin-bottom: 20px;
+h3 { 
+    font-size: 24px;
+    margin: 5px;
 }
 
-.column1of2 {
-    float: left;
+p { margin: 5px; }
+
+.column1of2 { 
+    float: left; 
+    height: 280px;
 }
 
 .column2of2 {
     float: left;
     width: 600px;
-    margin-left: 20px;
+    height: 130px;
+    padding-left: 20px;
 }
 
-.clear {
-    clear: left;
-}
+.clear { clear: left; }
 
 .bluebold {
     font-weight: bold;
     color: blue;
 }
 
-#brushes {
-    background-color: mediumspringgreen;
-}
+#brushes { background-color: mediumspringgreen; }
 
-#frames {
-    background-color: lightcoral;
-}
+#frames { background-color: lightcoral; }
 
-#paint {
-    background-color: skyblue;
-}
+#paint { background-color: skyblue; }
